@@ -1,22 +1,20 @@
 #include<stdio.h>
-#include<conio.h>
-void main()
+int main()
 {
 int a;
-clrscr();
 printf("enter the values:");
-scanf("%d&a");
-if(a==0)
-{
-printf("zero");
-}
+scanf("%d",&a);
 if(a<0)
 {
 printf("negative");
 }
-if(a>0);
+else
 {
 printf("positive");
 }
-getch();
+if(a==0);
+{
+printf("zero");
+}
+return 0;
 }
