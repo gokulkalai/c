@@ -12,7 +12,7 @@ else
 {
 printf("positive");
 }
-if(a==0);
+if(a==0)
 {
 printf("zero");
 }
