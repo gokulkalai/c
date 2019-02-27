@@ -12,5 +12,5 @@ else
 {
 printf("consonents");
 }
-return o;
+return 0;
 }
