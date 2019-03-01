@@ -1,13 +1,7 @@
 #include<stdio.h>
-void main()
+int main()
 {
 char a[100];
-int i;
-scanf("%d",a);
-for(i=0;a[i]!='0';i++)
-{
-printf("%c",a[i]);
-}
-printf(" gokul ");
-return 0;
-}
+scanf("%s,&a);
+      printf("\n%s,",s);
+      }
