@@ -7,7 +7,7 @@ for(i=1;i<=n;i++)
 {
 a=a*i;
 }
-printf("%d",a);
+printf("%d is %d",a,n);
 }
 return 0;
 }
