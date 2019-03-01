@@ -2,13 +2,21 @@
 #include<sring.h>
 int main()
 {
-char a[100];
-int n,i;
-gets(a);
-n=strlen9(a);
-for(i=n;i>=0;i--)
-{
-printf("%c",a[i]);
-}
-return 0;
+char a[100], b;
+int i,j=0;
+prntf("enter  the string :");
+  gets(a);
+  
+  i=0;
+  j=strlen(a)-1;
+  while (i<j){
+    b=a[i];
+    a[i]=a[j];
+    a[j]=b;
+    i++;
+    j--;
+  }
+  
+  printf("revrese string is:%s",a);
+  retrn 0;
 }
