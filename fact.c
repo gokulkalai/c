@@ -1,7 +1,7 @@
 #include<stdio.h>
-main()
+void main()
 {
-int i,n,b=1;
+int i,n,a=1;
 scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
