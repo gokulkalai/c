@@ -8,5 +8,5 @@ for(i=0;a[i]!='\10';i++)
 {
 printf("%c",a[i]);
 }
-printf(" .");
+printf(".");
 }
